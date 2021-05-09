@@ -159,7 +159,7 @@ public class Login extends javax.swing.JFrame {
                         ResultSet rs= pst.executeQuery();
                         if(rs.next())
                         {
-                           new Admin().setVisible(true);
+                           new BookTicket().setVisible(true);
                         }
                         else
                         {
